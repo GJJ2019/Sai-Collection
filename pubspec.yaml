@@ -1,0 +1,50 @@
+name: sai_collection
+description: An App For Sai Collection Shop
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^0.5.3+4
+  firebase_messaging: ^5.1.4
+  firebase_auth: ^0.14.0+5
+  cloud_firestore: ^0.12.9+3
+  cloud_functions: ^0.4.1+1
+  photo_view: ^0.4.2
+  cupertino_icons: ^0.1.2
+  carousel_pro: ^1.0.0
+  flutter_upi: ^0.0.2
+  url_launcher: ^5.1.2
+  flare_flutter: ^1.5.7
+  connectivity: ^0.4.4
+  cached_network_image: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    # Payment Icons
+    - assets/logo/airtel.png
+    - assets/logo/amazonpay.png
+    - assets/logo/bhim.png
+    - assets/logo/googlepay.png
+    - assets/logo/paytm.png
+    - assets/logo/phonepay.png
+    - assets/logo/nature.png
+    # Flare Animation
+    - assets/Animation/Success Check.flr
+    - assets/Animation/Mountain.flr
+    - assets/Animation/Offline.flr
+    - assets/Animation/Sai Collections logo.flr
+
+  fonts:
+    - family: Gotham Light
+      fonts:
+        - asset: assets/fonts/GothamLight.ttf
